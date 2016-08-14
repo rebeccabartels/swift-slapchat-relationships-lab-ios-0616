@@ -13,8 +13,9 @@ import Foundation
 import CoreData
 
 extension Message {
-
+    
     @NSManaged var content: String?
     @NSManaged var createdAt: NSDate?
-
+    @NSManaged var recipient: Recipient?
+    
 }

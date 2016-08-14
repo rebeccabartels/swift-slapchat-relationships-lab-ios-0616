@@ -16,6 +16,10 @@
 		1B85931C1D3D2E420051D343 /* Message+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85931A1D3D2E420051D343 /* Message+CoreDataProperties.swift */; };
 		1B85931D1D3D2E420051D343 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85931B1D3D2E420051D343 /* Message.swift */; };
 		1B85931F1D3D2EAD0051D343 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B85931E1D3D2EAD0051D343 /* TableViewController.swift */; };
+		435DA58A1D5E3ED7001F2C89 /* Recipient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 435DA5881D5E3ED7001F2C89 /* Recipient.xcdatamodeld */; };
+		435DA58C1D5E3F55001F2C89 /* Recipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DA58B1D5E3F55001F2C89 /* Recipient.swift */; };
+		435DA58E1D5E3FDA001F2C89 /* Recipient+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DA58D1D5E3FDA001F2C89 /* Recipient+CoreDataProperties.swift */; };
+		435DA5901D5E40E6001F2C89 /* RecipientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435DA58F1D5E40E6001F2C89 /* RecipientTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		1B85931A1D3D2E420051D343 /* Message+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Message+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1B85931B1D3D2E420051D343 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		1B85931E1D3D2EAD0051D343 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		435DA5891D5E3ED7001F2C89 /* Recipient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Recipient.xcdatamodel; sourceTree = "<group>"; };
+		435DA58B1D5E3F55001F2C89 /* Recipient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipient.swift; sourceTree = "<group>"; };
+		435DA58D1D5E3FDA001F2C89 /* Recipient+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recipient+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		435DA58F1D5E40E6001F2C89 /* RecipientTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipientTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,9 @@
 			children = (
 				1B8593031D3D2D660051D343 /* AppDelegate.swift */,
 				1B8593181D3D2DC70051D343 /* DataStore.swift */,
+				435DA58F1D5E40E6001F2C89 /* RecipientTableViewController.swift */,
+				435DA58B1D5E3F55001F2C89 /* Recipient.swift */,
+				435DA58D1D5E3FDA001F2C89 /* Recipient+CoreDataProperties.swift */,
 				1B85931A1D3D2E420051D343 /* Message+CoreDataProperties.swift */,
 				1B85931B1D3D2E420051D343 /* Message.swift */,
 				1B85931E1D3D2EAD0051D343 /* TableViewController.swift */,
@@ -72,6 +83,7 @@
 				1B85930F1D3D2D660051D343 /* LaunchScreen.storyboard */,
 				1B8593121D3D2D660051D343 /* Info.plist */,
 				1B85930A1D3D2D660051D343 /* SlapChat.xcdatamodeld */,
+				435DA5881D5E3ED7001F2C89 /* Recipient.xcdatamodeld */,
 			);
 			path = SlapChat;
 			sourceTree = "<group>";
@@ -147,10 +159,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				435DA58A1D5E3ED7001F2C89 /* Recipient.xcdatamodeld in Sources */,
 				1B85930C1D3D2D660051D343 /* SlapChat.xcdatamodeld in Sources */,
 				1B85931F1D3D2EAD0051D343 /* TableViewController.swift in Sources */,
+				435DA5901D5E40E6001F2C89 /* RecipientTableViewController.swift in Sources */,
 				1B8593191D3D2DC70051D343 /* DataStore.swift in Sources */,
 				1B85931D1D3D2E420051D343 /* Message.swift in Sources */,
+				435DA58C1D5E3F55001F2C89 /* Recipient.swift in Sources */,
+				435DA58E1D5E3FDA001F2C89 /* Recipient+CoreDataProperties.swift in Sources */,
 				1B85931C1D3D2E420051D343 /* Message+CoreDataProperties.swift in Sources */,
 				1B8593041D3D2D660051D343 /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +318,7 @@
 				1B8593171D3D2D660051D343 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -313,6 +330,16 @@
 			);
 			currentVersion = 1B85930B1D3D2D660051D343 /* SlapChat.xcdatamodel */;
 			path = SlapChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		435DA5881D5E3ED7001F2C89 /* Recipient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				435DA5891D5E3ED7001F2C89 /* Recipient.xcdatamodel */,
+			);
+			currentVersion = 435DA5891D5E3ED7001F2C89 /* Recipient.xcdatamodel */;
+			path = Recipient.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
